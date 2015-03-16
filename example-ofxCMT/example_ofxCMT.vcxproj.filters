@@ -1,0 +1,729 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\testApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCMT\src\ofxCMT.cpp">
+			<Filter>addons\ofxCMT\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp">
+			<Filter>addons\ofxCMT\libs\libCMT</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\CLD\src\ETF.cpp">
+			<Filter>addons\ofxCv\libs\CLD\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\CLD\src\fdog.cpp">
+			<Filter>addons\ofxCv\libs\CLD\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\Calibration.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\ContourFinder.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\Distance.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\Flow.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\Helpers.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\ObjectFinder.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\RunningBackground.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\Tracker.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\Utilities.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxCv\libs\ofxCv\src\Wrappers.cpp">
+			<Filter>addons\ofxCv\libs\ofxCv\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT">
+			<UniqueIdentifier>{498FA683-150A-9FCB-DA55-B1F4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\src">
+			<UniqueIdentifier>{B77CD58C-7A7C-2E45-BD3C-F3F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs">
+			<UniqueIdentifier>{6E0F2B7F-B0D4-B530-E154-D6A1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\libCMT">
+			<UniqueIdentifier>{1EB96955-3908-6CB9-5777-7F12}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9">
+			<UniqueIdentifier>{F9268B82-33F9-6E14-DFC5-DD03}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build">
+			<UniqueIdentifier>{7A4DA212-DEA3-A2A8-6DB3-0453}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include">
+			<UniqueIdentifier>{B0BA2FED-BD8C-4CFA-B6DA-464A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv">
+			<UniqueIdentifier>{0657B008-38B4-BE4E-6C7C-AA8D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2">
+			<UniqueIdentifier>{8549ACB8-7BFB-8388-0198-BEC8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\calib3d">
+			<UniqueIdentifier>{E71CD701-06FD-9435-05C1-9361}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib">
+			<UniqueIdentifier>{CB5F087D-A6A5-F8FD-0D1D-F9A3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core">
+			<UniqueIdentifier>{AF4EC1E1-C9F2-A185-38D1-9756}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\features2d">
+			<UniqueIdentifier>{E45B6D1C-F9DC-033C-97E0-5709}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann">
+			<UniqueIdentifier>{E5C63F10-1479-C6E1-593E-30B9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu">
+			<UniqueIdentifier>{664B05FA-85C7-95B7-6482-A1CF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device">
+			<UniqueIdentifier>{834A3DA1-D3D0-643D-0547-0B9F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail">
+			<UniqueIdentifier>{9EF033F1-9B5F-EDC4-06CF-B74E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui">
+			<UniqueIdentifier>{6D69746D-7023-9280-9093-5716}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc">
+			<UniqueIdentifier>{579B6771-5389-EB3C-B78D-575E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy">
+			<UniqueIdentifier>{352AD06D-D93E-9ADB-DB2B-7FDA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ml">
+			<UniqueIdentifier>{6C7046E1-ABC6-E705-93A7-7E01}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree">
+			<UniqueIdentifier>{9B4B93C5-224C-3D78-BA9F-2F35}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\objdetect">
+			<UniqueIdentifier>{90C9E55A-F574-5C9E-ED95-2E82}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ocl">
+			<UniqueIdentifier>{89EED730-8F13-662B-52B8-5D19}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\photo">
+			<UniqueIdentifier>{4733D92A-CF2F-E09F-6C69-8F97}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching">
+			<UniqueIdentifier>{B49D38FD-8CFF-7B44-478A-3821}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail">
+			<UniqueIdentifier>{ECBC3AE4-E09A-7107-79A7-FB92}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\superres">
+			<UniqueIdentifier>{9716875B-093C-9A88-CD40-31FB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts">
+			<UniqueIdentifier>{4B70FC6E-BF41-35B6-12F0-36F2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video">
+			<UniqueIdentifier>{32F91B92-79E0-7BF6-9B0B-6F1C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab">
+			<UniqueIdentifier>{2E982E49-8A38-8675-914C-AD19}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv">
+			<UniqueIdentifier>{A9C1150B-C1CB-2BC0-0F32-ED3B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\src">
+			<UniqueIdentifier>{6B661273-844D-D754-F98D-C3B1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs">
+			<UniqueIdentifier>{2D63E874-134A-C540-1157-C931}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs\CLD">
+			<UniqueIdentifier>{6E254616-00D9-D1AD-2976-B475}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs\CLD\include">
+			<UniqueIdentifier>{127D6EBD-127A-D8C0-AE83-D8F2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs\CLD\include\CLD">
+			<UniqueIdentifier>{8B905DF6-4298-B52E-6BAD-BD9B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs\CLD\src">
+			<UniqueIdentifier>{988C5DE1-0A28-4035-7625-48D9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs\ofxCv">
+			<UniqueIdentifier>{9104DB86-FB76-46B8-7315-E1A9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs\ofxCv\include">
+			<UniqueIdentifier>{80CEBD8F-DC90-1D69-BBF7-093D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs\ofxCv\include\ofxCv">
+			<UniqueIdentifier>{76E26063-B359-0A22-CC92-6F5B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxCv\libs\ofxCv\src">
+			<UniqueIdentifier>{D4F40DFE-7BFE-9E37-3B94-006C}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\testApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\src\ofxCMT.h">
+			<Filter>addons\ofxCMT\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\libCMT\CMT.h">
+			<Filter>addons\ofxCMT\libs\libCMT</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cv.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cv.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cvaux.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cvaux.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cvwimage.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cxcore.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cxcore.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cxeigen.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\cxmisc.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\highgui.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv\ml.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\calib3d\calib3d.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\calib3d</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib\contrib.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib\detection_based_tracker.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib\hybridtracker.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib\openfabmap.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib\retina.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\affine.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\core.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\core_c.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\cuda_devptrs.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\devmem2d.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\eigen.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\gpumat.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\internal.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\mat.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\opengl_interop.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\opengl_interop_deprecated.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\operations.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\types_c.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\version.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core\wimage.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\features2d\features2d.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\features2d</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\allocator.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\all_indices.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\any.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\autotuned_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\composite_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\config.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\defines.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\dist.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\dummy.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\dynamic_bitset.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\flann.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\flann_base.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\general.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\ground_truth.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\hdf5.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\heap.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\hierarchical_clustering_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\index_testing.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\kdtree_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\kdtree_single_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\kmeans_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\linear_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\logger.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\lsh_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\lsh_table.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\matrix.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\miniflann.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\nn_index.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\object_factory.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\params.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\random.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\result_set.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\sampling.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\saving.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\simplex_downhill.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann\timer.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\block.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\border_interpolate.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\color.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\common.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\datamov_utils.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail\color_detail.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail\reduce.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail\reduce_key_val.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail\transform_detail.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail\type_traits_detail.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail\vec_distance_detail.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\dynamic_smem.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\emulation.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\filters.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\funcattrib.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\functional.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\limits.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\reduce.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\saturate_cast.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\scan.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\simd_functions.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\static_check.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\transform.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\type_traits.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\utility.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\vec_distance.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\vec_math.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\vec_traits.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\warp.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\warp_reduce.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\warp_shuffle.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\devmem2d.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\gpu.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\gpumat.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\stream_accessor.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui\cap_ios.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui\highgui.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui\highgui_c.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui\ios.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc\imgproc.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc\imgproc_c.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc\types_c.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy\blobtrack.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy\compat.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy\legacy.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy\streams.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ml\ml.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ml</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree\features2d.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree\gpu.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree\nonfree.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree\ocl.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\objdetect\objdetect.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\objdetect</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ocl\matrix_operations.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ocl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ocl\ocl.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ocl</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\opencv.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\opencv_modules.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\photo\photo.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\photo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\photo\photo_c.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\photo</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\autocalib.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\blenders.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\camera.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\exposure_compensate.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\matchers.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\motion_estimators.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\seam_finders.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\util.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\util_inl.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\warpers.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail\warpers_inl.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\stitcher.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\warpers.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\superres\optical_flow.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\superres</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\superres\superres.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\superres</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts\gpu_perf.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts\gpu_test.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts\ts.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts\ts_gtest.h">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts\ts_perf.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video\background_segm.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video\tracking.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video\video.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\deblurring.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\fast_marching.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\fast_marching_inl.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\frame_source.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\global_motion.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\inpainting.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\log.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\motion_stabilizing.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\optical_flow.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\stabilizer.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab\videostab.hpp">
+			<Filter>addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\src\ofxCv.h">
+			<Filter>addons\ofxCv\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\CLD\include\CLD\ETF.h">
+			<Filter>addons\ofxCv\libs\CLD\include\CLD</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\CLD\include\CLD\fdog.h">
+			<Filter>addons\ofxCv\libs\CLD\include\CLD</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\CLD\include\CLD\imatrix.h">
+			<Filter>addons\ofxCv\libs\CLD\include\CLD</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\CLD\include\CLD\myvec.h">
+			<Filter>addons\ofxCv\libs\CLD\include\CLD</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\Calibration.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\ContourFinder.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\Distance.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\Flow.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\Helpers.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\ObjectFinder.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\RunningBackground.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\Tracker.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\Utilities.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv\Wrappers.h">
+			<Filter>addons\ofxCv\libs\ofxCv\include\ofxCv</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

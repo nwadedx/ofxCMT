@@ -1,0 +1,67 @@
+﻿Build started 3/16/2015 10:51:11 AM.
+     1>Project "C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\example_ofxCMT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /Isrc /I..\..\..\addons\ofxCMT\libs /I..\..\..\addons\ofxCMT\src /I..\..\..\addons\ofxCMT\libs\libCMT /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9 /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2 /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\calib3d /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\features2d /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ml /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\objdetect /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ocl /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\photo /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\superres /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\x86\vc12\staticlib /I..\..\..\addons\ofxCv\libs /I..\..\..\addons\ofxCv\src /I..\..\..\addons\ofxCv\libs\CLD /I..\..\..\addons\ofxCv\libs\CLD\include /I..\..\..\addons\ofxCv\libs\CLD\include\CLD /I..\..\..\addons\ofxCv\libs\CLD\src /I..\..\..\addons\ofxCv\libs\ofxCv /I..\..\..\addons\ofxCv\libs\ofxCv\include /I..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv /I..\..\..\addons\ofxCv\libs\ofxCv\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\addons\ofxCMT\src\ofxCMT.cpp
+         ofxCMT.cpp
+     1>c:\code\visual_studio\_github_release\libs\poco\include\poco\streamconverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\code\visual_studio\_github_release\libs\poco\include\poco\streamconverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\example_ofxCMT_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\addons\ofxCMT\libs\ocv2.4.9 /LIBPATH:..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\x86\vc11\lib /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudioD.lib videoInputD.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib ssleay32MD.lib libeay32MD.lib crypt32.lib PocoFoundationmdd.lib PocoNetmdd.lib PocoUtilmdd.lib PocoXMLmdd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib /NODEFAULTLIB:PocoFoundationmdd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:msvcrt /NODEFAULTLIB:libcmt /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCMTD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\example_ofxCMT_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\example_ofxCMT_debug.lib" /MACHINE:X86 /SAFESEH obj\Debug\icon.res
+         obj\Debug\main.obj
+         obj\Debug\testApp.obj
+         obj\Debug\ofxCMT.obj
+         obj\Debug\CMT.obj
+         obj\Debug\ETF.obj
+         obj\Debug\fdog.obj
+         obj\Debug\Calibration.obj
+         obj\Debug\ContourFinder.obj
+         obj\Debug\Distance.obj
+         obj\Debug\Flow.obj
+         obj\Debug\Helpers.obj
+         obj\Debug\ObjectFinder.obj
+         obj\Debug\RunningBackground.obj
+         obj\Debug\Tracker.obj
+         obj\Debug\Utilities.obj
+         obj\Debug\Wrappers.obj
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\openFrameworksCompiled\lib\vs\openframeworksLib_debug.lib
+         example_ofxCMT.vcxproj -> C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\bin\example_ofxCMT_debug.exe
+       PostBuildEvent:
+         xcopy /e /i /y "C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\*.dll" "C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\bin"
+         :VCEnd
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\Assimp32.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\fmodex.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\fmodexL.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\FreeImage.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\FreeType-6.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\glut32.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\libeay32.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\ssleay32.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\Zlib.dll
+         9 File(s) copied
+     1>Done Building Project "C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\example_ofxCMT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.24

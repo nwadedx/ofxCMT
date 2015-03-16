@@ -1,0 +1,468 @@
+﻿Build started 3/16/2015 10:52:31 AM.
+     1>Project "C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\example_ofxCMT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\..\libs\openssl\include /I..\..\..\addons /Isrc /I..\..\..\addons\ofxCMT\libs /I..\..\..\addons\ofxCMT\src /I..\..\..\addons\ofxCMT\libs\libCMT /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9 /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2 /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\calib3d /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\contrib /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\core /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\features2d /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\flann /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\gpu\device\detail /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\highgui /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\imgproc /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\legacy /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ml /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\nonfree /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\objdetect /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ocl /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\photo /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\stitching\detail /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\superres /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\ts /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\video /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\include\opencv2\videostab /I..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\x86\vc12\staticlib /I..\..\..\addons\ofxCv\libs /I..\..\..\addons\ofxCv\src /I..\..\..\addons\ofxCv\libs\CLD /I..\..\..\addons\ofxCv\libs\CLD\include /I..\..\..\addons\ofxCv\libs\CLD\include\CLD /I..\..\..\addons\ofxCv\libs\CLD\src /I..\..\..\addons\ofxCv\libs\ofxCv /I..\..\..\addons\ofxCv\libs\ofxCv\include /I..\..\..\addons\ofxCv\libs\ofxCv\include\ofxCv /I..\..\..\addons\ofxCv\libs\ofxCv\src /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\testApp.cpp ..\..\..\addons\ofxCMT\src\ofxCMT.cpp ..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp ..\..\..\addons\ofxCv\libs\CLD\src\ETF.cpp ..\..\..\addons\ofxCv\libs\CLD\src\fdog.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\Calibration.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\ContourFinder.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\Distance.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\Flow.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\Helpers.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\ObjectFinder.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\RunningBackground.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\Tracker.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\Utilities.cpp ..\..\..\addons\ofxCv\libs\ofxCv\src\Wrappers.cpp
+         main.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         testApp.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxCMT.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         CMT.cpp
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(71): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(101): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(139): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(142): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(154): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(162): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(166): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(191): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(199): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(269): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(272): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(275): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(285): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(289): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(292): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(305): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(322): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(330): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(341): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(343): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(354): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(366): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(384): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(387): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(392): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(393): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(407): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(417): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(431): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(441): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(447): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(457): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(470): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(481): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(484): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(518): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(529): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(536): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(560): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(536) : definition of 'i' ignored
+                 ..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(518) : definition of 'i' used
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(564): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(572): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(580): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(587): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(617): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(624): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(627): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\addons\ofxCMT\libs\libCMT\CMT.cpp(644): warning C4018: '>' : signed/unsigned mismatch
+         ETF.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         fdog.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         Calibration.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ContourFinder.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         Distance.cpp
+         Flow.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         Helpers.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ObjectFinder.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         RunningBackground.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         Tracker.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(332): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(332): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(332): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(333): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(333): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(333): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(334): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(334): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(334): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(335): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(335): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(335): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(359): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\addons\ofxCv\libs\ofxCv\include\ofxCv/Tracker.h(360): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         Utilities.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         Wrappers.cpp
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         Generating Code...
+     1>c:\code\visual_studio\_github_release\addons\ofxcv\libs\ofxcv\src\distance.cpp(32): warning C4700: uninitialized local variable 'bestScore' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\example_ofxCMT.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\addons\ofxCMT\libs\ocv2.4.9 /LIBPATH:..\..\..\addons\ofxCMT\libs\opencv_2.4.9\build\x86\vc11\lib /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_nonfree249.lib opencv_objdetect249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_ts249.lib opencv_video249.lib opencv_videostab249.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\example_ofxCMT.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\example_ofxCMT.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\main.obj
+         obj\Release\testApp.obj
+         obj\Release\ofxCMT.obj
+         obj\Release\CMT.obj
+         obj\Release\ETF.obj
+         obj\Release\fdog.obj
+         obj\Release\Calibration.obj
+         obj\Release\ContourFinder.obj
+         obj\Release\Distance.obj
+         obj\Release\Flow.obj
+         obj\Release\Helpers.obj
+         obj\Release\ObjectFinder.obj
+         obj\Release\RunningBackground.obj
+         obj\Release\Tracker.obj
+         obj\Release\Utilities.obj
+         obj\Release\Wrappers.obj
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib
+            Creating library bin\example_ofxCMT.lib and object bin\example_ofxCMT.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         example_ofxCMT.vcxproj -> C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\bin\example_ofxCMT.exe
+       PostBuildEvent:
+         xcopy /e /i /y "C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\*.dll" "C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\bin"
+         :VCEnd
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\Assimp32.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\fmodex.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\fmodexL.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\FreeImage.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\FreeType-6.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\glut32.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\libeay32.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\ssleay32.dll
+         C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\..\..\..\export\vs\Zlib.dll
+         9 File(s) copied
+     1>Done Building Project "C:\CODE\VISUAL_STUDIO\_GITHUB_RELEASE\apps\myApps\example-ofxCMT\example_ofxCMT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.34
