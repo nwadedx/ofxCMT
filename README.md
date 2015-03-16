@@ -1,5 +1,5 @@
 # ofxCMT
-Consensus-based Matching and Tracking of Keypoints (CMT) is a novel object tracking algorithm. Optical flow estimation is used to derived the movement of keypoints in a target ROI, and track their transformation over time. Keypoints are continually recomputed through a clustering function and an updated bounding box is solved for each frame. This is an error prone process but allows a very robust, lossy track of arbitrary and changing features without training a matching algorithm.
+Consensus-based Matching and Tracking of Keypoints (CMT) is a novel object tracking algorithm. Optical flow estimation is used to derive the movement of keypoints in a target ROI, and track their transformation over time. Keypoints are continually recomputed through a clustering function and an updated bounding box is solved for each frame. This is an error prone process but allows a very robust, lossy track of arbitrary and changing features without training a matching algorithm.
 
 ofxCMT wraps DelMottea's C++ port of Python CMT:
 https://github.com/delmottea/libCMT
