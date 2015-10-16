@@ -1,5 +1,5 @@
 //\ ofxCMT
-//\ rev03.13.2015 Nathan Wade 
+//\ rev03132015 Nathan Wade 
 
 #pragma once
 
