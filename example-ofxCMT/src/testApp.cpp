@@ -12,7 +12,7 @@ void testApp::setup(){
 	cam.setVerbose(true);
 	cam.initGrabber(640, 480); //edit size to match source
 
-    cmt.setup();
+    	cmt.setup();
 	pause = 0;
 
 }
@@ -20,7 +20,7 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
 
-	//we update only if target ROI is not bing set
+	//we update only if target ROI is not being set
 	if(!cmt.is_drawing_box){
 		cam.update();
 		if(cam.isFrameNew()) {
@@ -32,10 +32,9 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
-
+	
 	cam.draw(0,0);
-    cmt.draw();
-
+	cmt.draw();
 }
 
 //--------------------------------------------------------------
@@ -55,16 +54,19 @@ void testApp::mouseMoved(int x, int y ){
 
 ///--------------------------------------------------------------
 void testApp::mouseDragged(int x, int y, int button){
+	
 	cmt.mouseDragged(x, y);
 }
 
 //--------------------------------------------------------------
 void testApp::mousePressed(int x, int y, int button){
+	
 	cmt.mousePressed(x, y);
 }
 
 //--------------------------------------------------------------
 void testApp::mouseReleased(int x, int y, int button){
+	
 	cmt.mouseReleased(x, y);
 	cmt.update(cam.getPixelsRef());
 }
