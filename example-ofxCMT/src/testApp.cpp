@@ -1,6 +1,6 @@
 //\ ofxCMT Example
 //\ Nathan Wade 03.13.2015
-//\ http://nwadedx.info/
+//\ http://nwadedx.com/
 
 #include "testApp.h"
 
