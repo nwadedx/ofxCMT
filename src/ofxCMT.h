@@ -1,6 +1,5 @@
 //\ ofxCMT
-//\ Nathan Wade 03.13.2015
-//\ http://nwadedx.com/
+//\ rev03.13.2015 Nathan Wade 
 
 #pragma once
 
