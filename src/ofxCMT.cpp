@@ -1,6 +1,5 @@
 //\ ofxCMT
-//\ Nathan Wade 03.13.2015
-//\ http://nwadedx.com/
+//\ rev03132015 Nathan Wade 
 
 #include "ofxCMT.h"
 
